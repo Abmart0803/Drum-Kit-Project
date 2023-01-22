@@ -91,8 +91,8 @@ function makeSound (key) {
       kick.play();      
       break;
    
-    default:
-      break;
+    default: console.log(key);
+      
    }
 
 }
